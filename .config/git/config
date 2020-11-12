@@ -1,0 +1,16 @@
+[core]
+    editor = vim
+
+[push]
+    default = current
+
+[user]
+    name = Alexey Storozhev
+    email = dark.storoj@gmail.com
+
+[color]
+    ui = true
+
+[merge]
+    tool = vimdiff
+

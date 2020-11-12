@@ -23,4 +23,7 @@ clone:
 	git submodule update --init
 	git config --local status.showUntrackedFiles no
 
-init: clone gruvbox-terminal
+brew:
+	brew bundle --global
+
+init: clone gruvbox-terminal brew

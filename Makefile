@@ -14,6 +14,10 @@ gruvbox-terminal:
 		-c "Set :'Startup Window Settings' Gruvbox-dark" \
 		$(TerminalConfig)
 
+xcode:
+	defaults write com.apple.dt.Xcode ShowBuildOperationDuration YES
+	defaults write com.apple.dt.Xcode XCFontAndColorCurrentTheme "Gruvbox Dark.xccolortheme"
+
 clone:
 	cd
 	git init
@@ -26,4 +30,4 @@ clone:
 brew:
 	brew bundle --global
 
-init: clone gruvbox-terminal brew
+init: clone gruvbox-terminal xcode brew

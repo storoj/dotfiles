@@ -134,6 +134,7 @@ bind generic    $               :toggle commit-title-overflow
 bind generic    %               :toggle file-filter
 # External commands:
 bind generic    Y               !sh -c 'printf "%s" "%(commit)" | pbcopy'
+bind generic    &               ?git commit --fixup=%(commit)
 # Searching
 bind search     <Down>          find-next
 bind search     <Ctrl-N>        find-next

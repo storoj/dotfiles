@@ -1,0 +1,15 @@
+[submodule ".config/nvim/pack/tpope/start/commentary"]
+	path = .config/nvim/pack/tpope/start/commentary
+	url = https://tpope.io/vim/commentary.git
+[submodule ".config/nvim/pack/tpope/start/vim-surround"]
+	path = .config/nvim/pack/tpope/start/vim-surround
+	url = https://github.com/tpope/vim-surround.git
+[submodule ".config/nvim/pack/tpope/start/vim-dispatch"]
+	path = .config/nvim/pack/tpope/start/vim-dispatch
+	url = https://github.com/tpope/vim-dispatch.git
+[submodule ".config/nvim/pack/tpope/start/vim-sleuth"]
+	path = .config/nvim/pack/tpope/start/vim-sleuth
+	url = https://github.com/tpope/vim-sleuth.git
+[submodule ".config/nvim/pack/tpope/start/vim-fugitive"]
+	path = .config/nvim/pack/tpope/start/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive.git

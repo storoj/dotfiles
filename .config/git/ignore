@@ -5,3 +5,4 @@
 *.xccheckout
 *.swp
 .clangd
+.cache/clangd

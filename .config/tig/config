@@ -148,6 +148,7 @@ bind main       F               :toggle commit-title-refs
 # External commands:
 bind main       !               !git revert %(commit)
 bind main       C               ?git cherry-pick %(commit)
+bind main       <Ctrl-B>        !git checkout -b %(prompt) %(commit)
 # Option toggling:
 bind diff       [               :toggle diff-context -1
 bind diff       ]               :toggle diff-context +1
@@ -162,6 +163,7 @@ bind status     !               status-revert
 bind status     M               status-merge
 # External commands:
 bind status     C               !git commit -v
+bind status     A               !git commit --amend
 # View-specific actions
 bind stage      u               status-update
 bind stage      !               status-revert

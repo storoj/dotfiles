@@ -6,3 +6,4 @@
 *.swp
 .clangd
 .cache/clangd
+.vim

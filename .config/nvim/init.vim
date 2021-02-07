@@ -19,3 +19,5 @@ set backspace=indent,eol,start
 
 let g:netrw_banner=-2
 
+nmap <silent> <leader>b :make<cr>
+nmap <silent> <leader>B :Make<cr>

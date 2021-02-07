@@ -9,3 +9,5 @@ nmap <silent> gr <Plug>(coc-references-used)
 nmap <leader>f  <Plug>(coc-format-selected)
 
 nmap <leader>qf  <Plug>(coc-fix-current)
+
+nmap <leader>rn <Plug>(coc-rename)

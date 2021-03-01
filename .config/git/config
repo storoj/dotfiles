@@ -14,5 +14,8 @@
 [merge]
     tool = vimdiff
 
+[mergetool]
+    keepBackup = false
+
 [commit]
     verbose = true

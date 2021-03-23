@@ -19,3 +19,6 @@
 
 [commit]
     verbose = true
+
+[rebase]
+    autoSquash = true

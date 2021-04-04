@@ -15,6 +15,8 @@ set incsearch
 set hlsearch
 noremap <silent> <C-c> :let @/=""<cr>
 
+set scrolloff=8
+
 set backspace=indent,eol,start
 
 let g:netrw_banner=-2

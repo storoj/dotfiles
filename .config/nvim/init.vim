@@ -19,6 +19,11 @@ set scrolloff=8
 
 set backspace=indent,eol,start
 
+set undodir=~/.vim/undodir
+set undofile
+set undolevels=1000
+set undoreload=10000
+
 let g:netrw_banner=-2
 
 nmap <silent> <leader>b :make<cr>

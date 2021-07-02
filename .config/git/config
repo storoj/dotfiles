@@ -19,3 +19,6 @@
 
 [rebase]
     autoSquash = true
+
+[credential]
+    helper = cache

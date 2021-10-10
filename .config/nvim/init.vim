@@ -24,6 +24,9 @@ set undofile
 set undolevels=1000
 set undoreload=10000
 
+set exrc
+set secure
+
 let g:netrw_banner=-2
 
 nmap <silent> <leader>b :make<cr>

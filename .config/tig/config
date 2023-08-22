@@ -164,6 +164,7 @@ bind status     M               status-merge
 # External commands:
 bind status     C               !git commit -v
 bind status     A               !git commit --amend
+bind status     D               ?rm %(file)
 # View-specific actions
 bind stage      u               status-update
 bind stage      !               status-revert

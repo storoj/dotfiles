@@ -26,7 +26,7 @@
 				<key>Navigation</key>
 				<string>NO</string>
 				<key>Title</key>
-				<string>Release GPU Frame</string>
+				<string>Release GPU Workload</string>
 			</dict>
 			<dict>
 				<key>Action</key>

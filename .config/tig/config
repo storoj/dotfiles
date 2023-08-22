@@ -40,7 +40,7 @@ set show-changes              = yes
 set show-notes                = yes
 set show-untracked            = no
 set split-view-height         = 67%
-set split-view-width          = 50%
+set split-view-width          = 70%
 set stage-view                = line-number:no,interval=5 text
 set start-on-head             = no
 set stash-view                = line-number:no,interval=5 id:no,color=no date:default,local=no,format= author:full commit-title:yes,graph=no,refs=no

@@ -28,7 +28,6 @@ clone:
 	git config --local status.showUntrackedFiles no
 
 brew:
-	/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 	brew bundle --global
 
 init: clone gruvbox-terminal xcode brew

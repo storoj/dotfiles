@@ -15,7 +15,7 @@ gruvbox-terminal:
 		$(TerminalConfig)
 
 xcode:
-	defaults write com.apple.dt.Xcode ShowBuildOperationDuration YES
+	defaults write com.apple.dt.Xcode ShowBuildOperationDuration -bool YES
 	defaults write com.apple.dt.Xcode XCFontAndColorCurrentTheme "Gruvbox Dark.xccolortheme"
 
 clone:

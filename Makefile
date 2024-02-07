@@ -22,6 +22,9 @@ xcode:
 	defaults write com.apple.dt.Xcode KeyBindingsMode "Vi"
 	defaults write com.apple.dt.Xcode IDEEditorNavigationStyle_DefaultsKey "IDEEditorNavigationStyle_OpenInPlace"
 
+sim:
+	defaults write com.apple.iphonesimulator ShowChrome -bool NO
+
 clone:
 	cd
 	git init
@@ -34,4 +37,4 @@ clone:
 brew:
 	brew bundle --global
 
-init: clone gruvbox-terminal xcode brew
+init: clone gruvbox-terminal xcode sim brew

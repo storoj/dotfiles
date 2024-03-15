@@ -1,6 +1,6 @@
 PS1="%1~ %# "
 export CLICOLOR=1
-export PATH=$PATH:~/bin:~/homebrew/bin
+export PATH="$PATH:$HOME/bin:$HOME/homebrew/bin"
 
 if command -v nvim; then
   export EDITOR=nvim

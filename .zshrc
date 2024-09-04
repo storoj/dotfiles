@@ -10,6 +10,9 @@ else
 fi
 
 autoload -Uz compinit && compinit
+autoload -z edit-command-line
+zle -N edit-command-line
+bindkey "^X^E" edit-command-line
 
 HISTFILE=~/.zsh_history
 INC_APPEND_HISTORY=1

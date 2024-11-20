@@ -10,3 +10,6 @@ else
 fi
 
 autoload -Uz compinit && compinit
+
+HISTFILE=~/.zsh_history
+INC_APPEND_HISTORY=1

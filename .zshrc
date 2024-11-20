@@ -1,6 +1,6 @@
 PS1="%1~ %# "
 export CLICOLOR=1
-export PATH="$HOME/bin:$HOME/homebrew/bin:$PATH"
+export PATH="$HOME/bin:$HOME/homebrew/opt/java/bin:$HOME/homebrew/bin:$HOME/homebrew/sbin:$PATH"
 export DERIVED_DATA="$HOME/Library/Developer/Xcode/DerivedData"
 
 if command -v nvim; then

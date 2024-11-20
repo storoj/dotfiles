@@ -16,3 +16,9 @@
 [submodule "homebrew"]
 	path = homebrew
 	url = https://github.com/Homebrew/brew
+[submodule ".config/nvim/pack/telescope/start/telescope"]
+	path = .config/nvim/pack/telescope/start/telescope
+	url = https://github.com/nvim-telescope/telescope.nvim
+[submodule ".config/nvim/pack/nvim/start/plenary"]
+	path = .config/nvim/pack/nvim/start/plenary
+	url = https://github.com/nvim-lua/plenary.nvim

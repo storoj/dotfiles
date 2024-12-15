@@ -22,3 +22,6 @@
 [submodule ".config/nvim/pack/nvim/start/plenary"]
 	path = .config/nvim/pack/nvim/start/plenary
 	url = https://github.com/nvim-lua/plenary.nvim
+[submodule ".config/nvim/pack/nvim/start/treesitter"]
+	path = .config/nvim/pack/nvim/start/treesitter
+	url = https://github.com/nvim-treesitter/nvim-treesitter.git

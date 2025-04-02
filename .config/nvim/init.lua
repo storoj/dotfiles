@@ -25,8 +25,6 @@ vim.keymap.set('n', '<C-c>', ':let @/=""<CR>')
 vim.keymap.set('n', '<leader>G', ':Telescope git_files<CR>')
 vim.keymap.set('n', '<leader>T', ':Telescope<CR>')
 
-require'lspconfig'.pyright.setup {}
-
 require'nvim-treesitter.configs'.setup {
   -- A list of parser names, or "all" (the listed parsers MUST always be installed)
   ensure_installed = { "c", "lua", "vim", "vimdoc", "query", "markdown", "markdown_inline" },

@@ -1,4 +1,3 @@
-tap "homebrew/bundle"
 brew "git"
 brew "jq"
 brew "mosh"

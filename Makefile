@@ -23,6 +23,7 @@ xcode:
 	defaults write com.apple.dt.Xcode KeyBindingsMode "Vi"
 	defaults write com.apple.dt.Xcode ApplePersistenceIgnoreState -bool YES
 	defaults write com.apple.dt.Xcode IDEEditorNavigationStyle_DefaultsKey "IDEEditorNavigationStyle_OpenInPlace"
+	defaults write com.apple.dt.Xcode IDEFileExtensionDisplayMode -int 1
 
 sim:
 	defaults write com.apple.iphonesimulator ShowChrome -bool NO

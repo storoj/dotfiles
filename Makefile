@@ -25,6 +25,7 @@ xcode:
 	defaults write com.apple.dt.Xcode IDEEditorNavigationStyle_DefaultsKey "IDEEditorNavigationStyle_OpenInPlace"
 	defaults write com.apple.dt.Xcode IDEFileExtensionDisplayMode -int 1
 	defaults write com.apple.dt.Xcode IDELanguageModelSelectedDuringFirstLaunch -bool NO
+	defaults write com.apple.dt.Xcode IDEDisableStateRestoration -bool YES
 
 sim:
 	defaults write com.apple.iphonesimulator ShowChrome -bool NO

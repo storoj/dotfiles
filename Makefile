@@ -42,4 +42,6 @@ clone:
 brew:
 	brew bundle --global
 
-init: clone gruvbox-terminal xcode sim brew
+post-clone: gruvbox-terminal xcode sim brew
+
+init: clone post-clone

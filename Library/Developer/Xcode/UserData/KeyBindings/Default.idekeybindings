@@ -33,6 +33,8 @@
 				<string>stepToPreviousDisplayableCall:</string>
 				<key>Alternate</key>
 				<string>NO</string>
+				<key>CommandGroupID</key>
+				<string>Xcode.GPUToolsKit.CmdDefinition.StepPreviousDisplayableCall</string>
 				<key>CommandID</key>
 				<string>Xcode.GPUToolsKit.CmdDefinition.StepPreviousDisplayableCall</string>
 				<key>Group</key>
@@ -51,6 +53,8 @@
 				<string>goBackInHistoryByCommand:</string>
 				<key>Alternate</key>
 				<string>NO</string>
+				<key>CommandGroupID</key>
+				<string>Xcode.IDEKit.CmdDefinition.GoBack</string>
 				<key>CommandID</key>
 				<string>Xcode.IDEKit.CmdDefinition.GoBack</string>
 				<key>Group</key>
@@ -64,13 +68,15 @@
 				<key>Navigation</key>
 				<string>YES</string>
 				<key>Title</key>
-				<string>Go Back</string>
+				<string>Show Previous Location in History</string>
 			</dict>
 			<dict>
 				<key>Action</key>
 				<string>goBackInHistoryByCommandWithAlternate:</string>
 				<key>Alternate</key>
 				<string>YES</string>
+				<key>CommandGroupID</key>
+				<string>Xcode.IDEKit.CmdDefinition.GoBackWithAlternate</string>
 				<key>CommandID</key>
 				<string>Xcode.IDEKit.CmdDefinition.GoBackWithAlternate</string>
 				<key>Group</key>
@@ -84,13 +90,15 @@
 				<key>Navigation</key>
 				<string>YES</string>
 				<key>Title</key>
-				<string>Go Back (option)</string>
+				<string>Show Previous Location in History (option)</string>
 			</dict>
 			<dict>
 				<key>Action</key>
 				<string>goBackInHistoryByCommandWithShiftPlusAlternate:</string>
 				<key>Alternate</key>
 				<string>YES</string>
+				<key>CommandGroupID</key>
+				<string>Xcode.IDEKit.CmdDefinition.GoBackWithShiftPlusAlternate</string>
 				<key>CommandID</key>
 				<string>Xcode.IDEKit.CmdDefinition.GoBackWithShiftPlusAlternate</string>
 				<key>Group</key>
@@ -104,13 +112,15 @@
 				<key>Navigation</key>
 				<string>YES</string>
 				<key>Title</key>
-				<string>Go Back (shift+option)</string>
+				<string>Show Previous Location in History (shift+option)</string>
 			</dict>
 			<dict>
 				<key>Action</key>
 				<string>goForwardInHistoryByCommand:</string>
 				<key>Alternate</key>
 				<string>NO</string>
+				<key>CommandGroupID</key>
+				<string>Xcode.IDEKit.CmdDefinition.GoForward</string>
 				<key>CommandID</key>
 				<string>Xcode.IDEKit.CmdDefinition.GoForward</string>
 				<key>Group</key>
@@ -124,13 +134,15 @@
 				<key>Navigation</key>
 				<string>YES</string>
 				<key>Title</key>
-				<string>Go Forward</string>
+				<string>Show Next Location in History</string>
 			</dict>
 			<dict>
 				<key>Action</key>
 				<string>goForwardInHistoryByCommandWithAlternate:</string>
 				<key>Alternate</key>
 				<string>YES</string>
+				<key>CommandGroupID</key>
+				<string>Xcode.IDEKit.CmdDefinition.GoForwardWithAlternate</string>
 				<key>CommandID</key>
 				<string>Xcode.IDEKit.CmdDefinition.GoForwardWithAlternate</string>
 				<key>Group</key>
@@ -144,13 +156,15 @@
 				<key>Navigation</key>
 				<string>YES</string>
 				<key>Title</key>
-				<string>Go Forward (option)</string>
+				<string>Show Next Location in History (option)</string>
 			</dict>
 			<dict>
 				<key>Action</key>
 				<string>goForwardInHistoryByCommandWithShiftPlusAlternate:</string>
 				<key>Alternate</key>
 				<string>YES</string>
+				<key>CommandGroupID</key>
+				<string>Xcode.IDEKit.CmdDefinition.GoForwardWithShiftPlusAlternate</string>
 				<key>CommandID</key>
 				<string>Xcode.IDEKit.CmdDefinition.GoForwardWithShiftPlusAlternate</string>
 				<key>Group</key>
@@ -164,7 +178,7 @@
 				<key>Navigation</key>
 				<string>YES</string>
 				<key>Title</key>
-				<string>Go Forward (shift+option)</string>
+				<string>Show Next Location in History (shift+option)</string>
 			</dict>
 			<dict>
 				<key>Action</key>
@@ -193,6 +207,8 @@
 				<string>_showNextEditorTab:</string>
 				<key>Alternate</key>
 				<string>NO</string>
+				<key>CommandGroupID</key>
+				<string>Xcode.IDEKit.CmdDefinition.ShowNextEditorTab</string>
 				<key>CommandID</key>
 				<string>Xcode.IDEKit.CmdDefinition.ShowNextEditorTab</string>
 				<key>Group</key>
@@ -211,6 +227,8 @@
 				<string>_showPreviousEditorTab:</string>
 				<key>Alternate</key>
 				<string>NO</string>
+				<key>CommandGroupID</key>
+				<string>Xcode.IDEKit.CmdDefinition.ShowPreviousEditorTab</string>
 				<key>CommandID</key>
 				<string>Xcode.IDEKit.CmdDefinition.ShowPreviousEditorTab</string>
 				<key>Group</key>

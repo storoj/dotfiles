@@ -20,6 +20,9 @@
 [commit]
     verbose = true
 
+[core]
+    untrackedCache = true
+
 [rebase]
     autoSquash = true
 

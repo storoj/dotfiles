@@ -14,5 +14,6 @@ autoload -z edit-command-line
 zle -N edit-command-line
 bindkey "^X^E" edit-command-line
 
-HISTFILE=~/.zsh_history
-INC_APPEND_HISTORY=1
+export HISTFILE="$HOME/.zhistory"
+setopt inc_append_history
+setopt share_history
